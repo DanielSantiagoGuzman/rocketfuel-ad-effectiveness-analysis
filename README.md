@@ -44,7 +44,7 @@ Rocket Fuel addressed this with a **randomized holdout design**, 4% of targeted 
 
 **Treatment effect estimation:**
 - Two-sample t-test on conversion rates (difference in proportions)
-- Logistic regression with `test` as the binary predictor — consistent with t-test directionally, adds log-odds interpretation and extensibility to subgroup models
+- Logistic regression with `test` as the binary predictor, consistent with t-test directionally, adds log-odds interpretation and extensibility to subgroup models
 
 **Subgroup analyses:**
 - Day-of-week effectiveness: t-test and logistic regression per day
@@ -78,7 +78,7 @@ Rocket Fuel addressed this with a **randomized holdout design**, 4% of targeted 
 **Ad frequency**
 - **Sweet spot: 81–120 impressions** → 9.26 pp absolute lift (127% relative), p < 0.001
 - 41–80 impressions: solid secondary band (3.79 pp lift, 81% relative)
-- **200+ impressions: near-zero lift** (0.07 pp, p = 0.97) — complete ad saturation
+- **200+ impressions: near-zero lift** (0.07 pp, p = 0.97), complete ad saturation
 - 84% of users fall in the 0–40 bin, where no significant lift was detected, the largest untapped volume segment
 
 ---
@@ -86,7 +86,7 @@ Rocket Fuel addressed this with a **randomized holdout design**, 4% of targeted 
 ## Strategic Recommendations
 
 1. **Implement a frequency cap at ~120 impressions.** Above that, spending has no measurable return.
-2. **Reallocate budget from 200+ segment to expand reach** among the 0–40 group — but with care, as low-frequency users have lower baseline intent.
+2. **Reallocate budget from 200+ segment to expand reach** among the 0–40 group, but with care, as low-frequency users have lower baseline intent.
 3. **Concentrate spend on Mon–Wed and the 9am–2pm window** for maximum conversion impact.
 4. **Design the next campaign as a frequency randomization experiment**, randomly assign users to impression caps (40 / 80 / 120 / 200) to get clean causal estimates of the optimal frequency, removing browsing-intensity confounding.
 
