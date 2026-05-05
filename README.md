@@ -123,4 +123,10 @@ The notebook is fully self-contained — all outputs are pre-rendered inline. No
 
 ---
 
-*Data source: Berkeley-Haas Case Series — Katona & Bell (2017), "Rocket Fuel: Measuring the Effectiveness of Online Advertising." Dataset anonymized; certain figures altered per case study guidelines.*
+---
+
+## Dataset Availability
+
+The dataset used in this analysis (`rocketfuel.csv`) is not included in this repository. It was distributed as part of a proprietary case study and cannot be shared per course policy.
+
+**Source:** Berkeley-Haas Case Series — Katona & Bell (2017), *"Rocket Fuel: Measuring the Effectiveness of Online Advertising"* (Case B5894). Published by the Haas School of Business, University of California, Berkeley. Dataset anonymized; certain figures altered per case study guidelines.
